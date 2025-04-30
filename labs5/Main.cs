@@ -88,6 +88,7 @@ namespace lab4
             Console.WriteLine("6 -----------------------------------------------");
             Console.WriteLine(newStudent);
 
+            // C:\\С#files\\log1.json
         }
     }
 }
