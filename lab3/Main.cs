@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Linq.Expressions;
-using System.Reflection;
-using System.Collections.Generic;
 
 namespace lab3
 {
