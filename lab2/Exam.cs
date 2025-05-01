@@ -1,4 +1,4 @@
-﻿namespace lab3
+﻿namespace lab2
 {
     public class Exam : IDateAndCopy
     {

@@ -1,11 +1,4 @@
-﻿using lab3;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace lab4
+﻿namespace lab5
 {
     class Journal
     {

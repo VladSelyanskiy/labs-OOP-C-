@@ -1,8 +1,4 @@
-﻿using lab3;
-using System;
-using System.IO;
-
-namespace lab4
+﻿namespace lab5
 {
     class Program
     {
@@ -49,7 +45,7 @@ namespace lab4
             Console.WriteLine("2 -----------------------------------------------");
 
             Student newStudent = new();
-            Console.WriteLine("Введит путь к файлу:");
+            Console.WriteLine("Введите путь к файлу:");
             string filePath = Console.ReadLine()!;
             if (File.Exists(filePath))
             {
@@ -88,6 +84,7 @@ namespace lab4
             Console.WriteLine("6 -----------------------------------------------");
             Console.WriteLine(newStudent);
 
+            // Путь к файлу с данными
             // C:\\С#files\\log1.json
         }
     }

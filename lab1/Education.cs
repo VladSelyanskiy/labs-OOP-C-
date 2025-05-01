@@ -1,4 +1,4 @@
-﻿namespace lab3
+﻿namespace lab1
 {
     public enum Education
     {

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Linq;
-using System.Collections.Generic;
+﻿using System.Collections;
 using System.Text.Json;
-using System.IO;
 
-namespace lab3
+namespace lab5
 {
     [Serializable]
     class Student : Person, IDateAndCopy
@@ -50,7 +46,7 @@ namespace lab3
             set
             {
                 int input = value;
-                if (input <= 100 || input > 599)
+                if (input < 100 || input > 599)
                 {
                     throw new ArgumentException("Номер группы должен быть" +
                         " в диапозоне от 100 до 600");

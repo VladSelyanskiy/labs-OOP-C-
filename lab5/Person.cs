@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace lab3
+﻿namespace lab5
 {
     [Serializable]
     public class Person : IDateAndCopy, IComparable<Person>
